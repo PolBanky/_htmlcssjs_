@@ -1,0 +1,93 @@
+
+
+h2 {
+	color: darkcyan;
+	background: rgba(217, 79, 155, 0.15);
+}
+
+p {
+	background: rgba(79, 217, 155, 0.15);
+}
+
+div {
+	background: rgba(217, 215, 79, 0.2);
+}
+
+div.item {
+	width: 100px;
+	height: 100px;
+	background-color: #ee0000;
+	margin: 5px;
+	text-align: center;
+	font-size: 2em;
+	color: #0000ff;
+}
+div.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 1600px;
+	height: 400px;
+}
+
+ul, ol {
+	background: rgba(168, 79, 52, 0.2);
+}
+li {
+	background: rgba(100, 217, 100, 0.25);
+}
+
+table {
+	background: rgba(87, 52, 168, 0.1);
+	border: 1px solid #ee0000;
+}
+th {
+	background: rgba(209, 184, 70, 0.3);
+	border: 1px solid #ee0000;
+}
+td {
+	background: rgba(100, 217, 100, 0.3);
+	border: 1px solid #ee0000;
+}
+
+table.tbl01 {
+	width: 600px;
+	table-layout: fixed;
+	background: rgba(87, 52, 168, 0.1);
+	border: 1px solid #ee0000;
+	margin: 20px;
+}
+table.tbl01 th {
+	color: #0000ff;    /* Цвет текста */
+	font-size: 1.4em;    /* Размер шрифта */
+	background: rgba(211, 91, 54, 0.3);
+	border: 1px solid #00ee00;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+table.tbl01 td {
+	color: #dd1111;
+	font-size: 1.2em;
+	background: rgba(100, 217, 100, 0.3);
+	border: 1px solid #ee0000;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-align: center;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+input {
+	font-family: monospace;
+	font-size: 2em;
+	width: 600px;
+	padding: 10px;
+	/* color: #ee0000; */
+	color: #473dc9;
+	/* background: rgba(215, 217, 100, 0.15); */
+	/* background: linear-gradient(to top, #006400, #ADFF2F); */
+	/* background: linear-gradient(to left, #B22222, #FFA07A); */
+	background: linear-gradient(to top left, #006400, #ADFF2F);
+}
+
